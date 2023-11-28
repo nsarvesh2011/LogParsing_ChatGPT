@@ -1,0 +1,86 @@
+,EventTemplate,Occurrences
+0,Registered signal handlers for {signals},1
+1,Changing view acls to: {acls},2
+2,"Changing modify acls to: {acl1},{acl2}",2
+3,"SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set({variable}, {variable}); users with modify permissions: Set({variable}, {variable})",2
+4,Slf4jLogger started,1
+5,Starting remoting,1
+6,Remoting started; listening on addresses :[{address}],1
+7,Successfully started service '{service}' on port {port}.,2
+8,Created local directory at {directory_path},1
+9,MemoryStore started with capacity {capacity},1
+10,Connecting to driver: {driver},1
+11,Successfully registered with driver,1
+12,Starting executor ID {executor_id} on host {host_name},1
+13,Server created on {port},1
+14,Trying to register BlockManager,1
+15,Registered BlockManager,1
+16,Got assigned task {task_number},291
+17,Running task {task_id} in stage {stage_id} (TID {tid}),8
+18,Running task {task} in stage {stage} (TID {tid}),297
+19,Got assigned task {variable},1
+20,Started reading broadcast variable {variable},37
+21,"Block broadcast_{variable}_piece0 stored as bytes in memory (estimated size {size}, free {size})",1
+22,Reading broadcast variable {variable} took {time} ms,37
+23,"Block {variable} stored as values in memory (estimated size {variable}, free {variable})",35
+24,"Partition {partition_name} not found, computing it",13
+25,Input split: {input_path}:{start_offset}+{split_length},20
+26,Input split: {input_path}:{start_offset}+{length},2
+27,Input split: {input_path}:{start}+{end},2
+28,"Block {variable} stored as bytes in memory (estimated size {variable}, free {variable})",8
+29,"mapred.tip.id is deprecated. Instead, use mapreduce.task.id",1
+30,"mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id",1
+31,"mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap",1
+32,"mapred.job.id is deprecated. Instead, use mapreduce.job.id",1
+33,"mapred.task.partition is deprecated. Instead, use mapreduce.task.partition",1
+34,"Block broadcast_0_piece0 stored as bytes in memory (estimated size {size}, free {free})",1
+35,"Block {variable}_piece{variable} stored as bytes in memory (estimated size {variable} B, free {variable} KB)",2
+36,"Block {variable}_piece{variable} stored as bytes in memory (estimated size {variable}, free {variable})",8
+37,"Block broadcast_2_piece0 stored as bytes in memory (estimated size {size} B, free {free_memory} KB)",1
+38,"Times: total = {total_time}, boot = {boot_time}, init = {init_time}, finish = {finish_time}",224
+39,"Block {block_name} stored as bytes in memory (estimated size {size}, free {free_memory})",40
+40,"Block {block_name} stored as bytes in memory (estimated size {size} B, free {free_memory} KB)",23
+41,"Times: total = {total}, boot = {boot}, init = {init}, finish = {finish}",151
+42,Finished task {task_id} in stage {stage_id} (TID {tid}). {result_size} bytes result sent to driver,78
+43,"Block broadcast_{variable}_piece{variable} stored as bytes in memory (estimated size {variable}, free {variable})",3
+44,"Block {variable} stored as values in memory (estimated size {size}, free {free})",2
+45,Found block {block} locally,257
+46,Finished task {task} in stage {stage} (TID {tid}). {bytes} bytes result sent to driver,222
+47,"Block broadcast_{variable}_piece{variable} stored as bytes in memory (estimated size {variable} KB, free {variable} KB)",10
+48,"Partition {partition} not found, computing it",14
+49,"Block {variable}_piece0 stored as bytes in memory (estimated size {variable}, free {variable})",3
+50,"Partition {rdd_name} not found, computing it",23
+51,Got assigned task {task},1
+52,"Partition {rdd}_{num} not found, computing it",25
+53,"Block {blockName} stored as bytes in memory (estimated size {size}, free {freeMemory})",1
+54,"Block {block} stored as bytes in memory (estimated size {size}, free {free})",6
+55,File Output Committer Algorithm version is {version},30
+56,Saved output of task '{task_id}' to {output_path},29
+57,Saved output of task '{task_id}' to {destination},1
+58,attempt_{job_id}_{task_type}_{attempt_num}_{task_num}_{status},1
+59,attempt_XXXXXXXXXXXX_m_XXXXXXXXX_XXXXXX: Committed,1
+60,attempt_{job_id}_{task_type}_{task_id}_{attempt_id}_{status},1
+61, {variable}: Committed,2
+62,attempt_XXXXXXXXXXXX_XXXX_X_XXXXXXXXX: Committed,1
+63,attempt_{date}_{job_id}_{task_type}_{task_id}_{status},3
+64,attempt_{date}_{job_id}_{task_type}_{task_id}_{attempt_id}: {status},2
+65,attempt_XXXXXXXXXXXX_XXXX_X_XXXXXXXXXX: Committed,1
+66,attempt_201706092018_0024_m_000041_1126: Committed,1
+67,attempt_{date}_{job_id}_m_{task_id}_{attempt_id}: Committed,1
+68,attempt_{date}_{job_id}_{task_type}_{task_attempt}_: Committed,1
+69,attempt_201706092018_0024_m_000080_1135: Committed,1
+70,attempt_XXXXXXXXXXXX_m_XXXXXXXXX: Committed,5
+71,attempt_{date}_{job_id}_{task_type}_{task_id}_{attempt_id}: Committed,2
+72,attempt_201706092018_0024_m_000120_1145: Committed,1
+73,attempt_XXXXXXXXXXXX_m_XXXXXXXXXXXX: Committed,1
+74,attempt_201706092018_0024_m_000164_1159: Committed,1
+75,attempt_XXXXXXXXXXXX_m_XXXXXXXXXX_XXXX: Committed,1
+76,Got assigned task {task_id},12
+77,attempt_{date}_{job_id}_{task_type}_{task_id}_{attempt}: Committed,1
+78,attempt_{job_id}_{task_type}_{task_id}_{attempt_id}: Committed,2
+79,Input split: {path}:{start}+{length},9
+80,Input split: {path}:{start}+{end},1
+81,Input split: {path}:{offset}+{length},11
+82,"Block {block_name} stored as bytes in memory (estimated size {size_estimate} B, free {free_memory} KB)",2
+83,"Block {blockName} stored as bytes in memory (estimated size {sizeEstimate} B, free {freeMemory} KB)",1
+84,"Block {blockName} stored as bytes in memory (estimated size {size} B, free {freeMemory} KB)",2

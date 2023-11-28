@@ -1,0 +1,75 @@
+,EventTemplate,Occurrences
+0,Registered signal handlers for [%s],1
+1,Changing view acls to: {},2
+2,"Changing modify acls to: {user1},{user2}",2
+3,"SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)",2
+4,Not enough information provided to determine the log template.,1
+5,Starting remoting,1
+6,Remoting started; listening on addresses :[akka.tcp://{system}@{host}:{port}],1
+7,Successfully started service '{service_name}' on port {port_number}.,2
+8,Created local directory at {},1
+9,MemoryStore started with capacity {capacity}.,1
+10,Connecting to driver: spark://{scheduler}@{ip}:{port},1
+11,Successfully registered with driver,1
+12,Starting executor ID {} on host {},1
+13,Server created on {},1
+14,Trying to register BlockManager,1
+15,{message},1
+16,Got assigned task {},303
+17,Running task {task_id} in stage {stage_id} (TID {tid}),12
+18,Running task {task_number} in stage {stage_number} (TID {tid}),94
+19,Started reading broadcast variable {},37
+20,"Block broadcast_{piece_number} stored as bytes in memory (estimated size {size}, free {free_space})",2
+21,Reading broadcast variable {variable_id} took {time} ms,10
+22,"Block {block_name} stored as values in memory (estimated size {size}, free {free_space})",36
+23,"Partition {partition_name} not found, computing it",34
+24,Input split: hdfs://{IP}:{PORT}/{PATH}:{OFFSET}+{LENGTH},37
+25,Input split: hdfs://{IP_ADDRESS}:{PORT}/{FILE_PATH}:{START_OFFSET}+{LENGTH},3
+26,"Block {block_name} stored as bytes in memory (estimated size {size}, free {free_space})",22
+27,"{old_message} is deprecated. Instead, use {new_message}",1
+28,"{old_variable} is deprecated. Instead, use {new_variable}",2
+29,"{message} is deprecated. Instead, use {new_message}",2
+30,"Block broadcast_0_piece0 stored as bytes in memory (estimated size {size}, free {free})",1
+31,Reading broadcast variable {variable_number} took {time_in_ms} ms,3
+32,"Block broadcast_4_piece0 stored as bytes in memory (estimated size {size}, free {free})",1
+33,"Block {block_name} stored as bytes in memory (estimated size {size}, free {free_memory})",5
+34,Reading broadcast variable {} took {} ms,24
+35,"Block broadcast_2_piece0 stored as bytes in memory (estimated size {size}, free {free})",1
+36,"Times: total = {}, boot = {}, init = {}, finish = {}",375
+37,"Block {rdd_name} stored as bytes in memory (estimated size {size}, free {free_memory})",31
+38,Finished task {task_id} in stage {stage_id} (TID {tid}). {result_size} bytes result sent to driver.,197
+39,Running task {}.{} in stage {} (TID {}),2
+40,Running task {}.0 in stage {}.0 (TID {}),183
+41,Found block {block_id} locally,149
+42,Finished task {task_number} in stage {stage_number} (TID {tid}). {result_size} bytes result sent to driver.,52
+43,Running task {}.{} in stage {}.{} (TID {}),9
+44,Finished task {task_id} in stage {stage_id} (TID {tid}). {result_size} result sent to driver.,27
+45,Finished task {task_number} in stage {stage_number} (TID {TID}). {result_size} result sent to driver.,1
+46,Finished task {task_number} in stage {stage_number} (TID {task_id}). {result_size} bytes result sent to driver.,4
+47,Found block {block_name} locally,22
+48,Finished task {task_number} in stage {stage_number} (TID {TID}). {result_size} bytes result sent to driver.,18
+49,"Block broadcast_{piece_number} stored as bytes in memory (estimated size {size}, free {free_memory})",4
+50,"Block broadcast_{block_number} stored as values in memory (estimated size {size}, free {free_space})",1
+51,Running task {}.{} in stage {}. (TID {}),5
+52,"Block {rdd_name} stored as bytes in memory (estimated size {size}, free {memory})",4
+53,"Partition {rdd_name}_{partition_number} not found, computing it",7
+54,File Output Committer Algorithm version is {},30
+55,Saved output of task '{TASK_ID}' to {OUTPUT_PATH},30
+56,attempt_{job_id}_{task_type}_{task_attempt}_Committed,20
+57,attempt_{job_id}_{task_type}_{task_attempt}_: {message},8
+58,Finished task {}.0 in stage {}.0 (TID {}). {} bytes result sent to driver,1
+59,attempt_{job_id}_{task_type}_{task_attempt}: {message},1
+60,attempt_{job_id}_{task_type}_{task_id}_{attempt_id}: {message},1
+61,"Partition {rdd_name} not found, computing it",7
+62,"Partition {rdd}_{number} not found, computing it",19
+63,"Block {rdd_id} stored as bytes in memory (estimated size {size}, free {free_memory})",40
+64,Got assigned task {task_number},2
+65,"Partition {rdd_id} not found, computing it",3
+66,Input split: hdfs://{IP_ADDRESS}:{PORT}/{FILE_PATH}:{OFFSET}+{LENGTH},4
+67,"Partition {rdd_id}_{partition_id} not found, computing it",1
+68,"Partition {rdd}_{number}_{number} not found, computing it",1
+69,Input split: hdfs://{IP}:{PORT}/{PATH}:{LINE_NUMBER}+{LENGTH},1
+70,"Partition {rdd}_{num1}_{num2} not found, computing it",2
+71,"Partition {rdd}_{num} not found, computing it",1
+72,"Block broadcast_{piece_number} stored as bytes in memory (estimated size {size_estimate}, free {free_memory})",1
+73,Found block rdd_{id}_{number} locally,86

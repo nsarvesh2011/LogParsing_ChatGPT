@@ -1,0 +1,11 @@
+,EventTemplate,Occurrences
+0,workerEnv.init() ok {file_path},456
+1,mod_jk child workerEnv in error state {state},539
+2,jk2_init() Found child {child_pid} in scoreboard slot {slot_number},708
+3,jk2_init() Found child {child_id} in scoreboard slot {slot_number},123
+4,workerEnv.init() ok {path},113
+5,[client {ip_address}] Directory index forbidden by rule: {directory_path},28
+6,[client {client_ip}] Directory index forbidden by rule: {directory_path},4
+7,jk2_init() Found child {pid} in scoreboard slot {slot},5
+8,jk2_init() Can't find child {child_id} in scoreboard,12
+9,mod_jk child init {child_id} {error_code},12

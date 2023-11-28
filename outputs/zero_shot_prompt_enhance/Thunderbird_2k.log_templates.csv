@@ -1,0 +1,216 @@
+,EventTemplate,Occurrences
+0,session closed for user {username},24
+1,session opened for user {username} by (uid={uid}),19
+2,({user}) CMD ({command}),14
+3,data_thread() got not answer from any {datasource},717
+4,"synchronized to {ip_address}, stratum {stratum}",512
+5,"synchronized to {ip_address}, stratum {stratum_level}",54
+6,data_thread() got not answer from any {datasource} datasource,95
+7,[ib_sm_sweep.c:{line_number}]: ********************** NEW SWEEP ********************,62
+8,[ib_sm_sweep.c:{line_number}]: No topology change,62
+9,[ib_sm_sweep.c:{line_number}]: No configuration change required,62
+10,Local disconnected: {reason}.,3
+11,connection lost: '{reason}',3
+12,unable to qualify my own domain name ({hostname}) -- using short name,6
+13,"from=root, size={size}, class={class}, nrcpts={nrcpts}, msgid={msgid}, relay={relay}",1
+14,"to={to}, ctladdr={ctladdr}, delay={delay}, xdelay={xdelay}, mailer={mailer}, pri={pri}, relay={relay}, dsn={dsn}, stat={stat}",3
+15,unable to qualify my own domain name ({domain_name}) -- using short name,4
+16,"{:id}: from={:from}, size={:size}, class={:class}, nrcpts={:nrcpts}, msgid={:msgid}, relay={:relay}",6
+17,"jA9J1Wd7019391: to={to}, ctladdr={ctladdr} ({ctladdr_count}/{ctladdr_total}), delay={delay}, xdelay={xdelay}, mailer={mailer}, pri={pri}, relay=[{relay_ip}] [{relay_hostname}], dsn={dsn}, stat={stat}",1
+18,"from={from}, size={size}, class={class}, nrcpts={nrcpts}, msgid={msgid}, relay={relay}",3
+19,"jA9J1WSU011176: to=root, ctladdr=root (0/0), delay={delay}, xdelay={xdelay}, mailer=relay, pri={pri}, relay=[{relay_ip}] [{relay_hostname}], dsn={dsn}, stat={stat}",1
+20,"jA9J1WFE024258: to={to}, ctladdr={ctladdr} ({ctladdr_count}/{ctladdr_total}), delay={delay}, xdelay={xdelay}, mailer={mailer}, pri={pri}, relay=[{relay_ip}] [{relay_hostname}], dsn={dsn}, stat={stat}",1
+21,DHCPDISCOVER from {mac_address} via {interface},5
+22,DHCPOFFER on {IP} to {MAC} via {interface},5
+23,"jA9J1dQ{num}: to={to}, ctladdr={ctladdr} ({num}/{num}), delay={delay}, xdelay={xdelay}, mailer={mailer}, pri={num}, relay=[{ip}] [{ip}], dsn={dsn}, stat={stat}",1
+24,DHCPDISCOVER from {mac_address} via {interface}: {network}: no free leases,14
+25,DHCPACK on {IP} to {MAC} via {interface},3
+26,DHCPREQUEST for {IP} ({IP}) from {MAC} via {interface},3
+27,START: tftp pid={pid} from={ip},1
+28,DHCPREQUEST for {IP} ({IP}) from {MAC} via {interface}: unknown lease {IP}.,9
+29,DHCPDISCOVER from {mac_address} via {interface}: {network_name}: no free leases,1
+30,RRD_update (<path>): illegal attempt to update using time <time> when last update time is <time> (minimum one second step),1
+31,kernel time sync disabled {variable},1
+32,time reset {time} s,1
+33,data_thread() got not answer from any {datasource_name} datasource,7
+34,RRD_update ({rrd_path}): illegal attempt to update using time {update_time} when last update time is {last_update_time} (minimum one second step),10
+35,Received SNMP packet(s) from {device_id},1
+36,"synchronized to LOCAL({int}), stratum {int}",1
+37,kernel time sync enabled {variable},1
+38,"synchronized to {#}, stratum {#}",1
+39,({user}) CMD ({command} {argument}),1
+40,(root) CMD ({path} {arg}),1
+41,{user} CMD ({command} {argument}),1
+42,{user} CMD ({command} {option}),1
+43,(root) CMD (/projects/tbird/temps/get_temps {variable}),1
+44,My unqualified host name ({hostname}) unknown; sleeping for retry,5
+45,CentOS-4 ({placeholder}),1
+46,(supports {var1} {var2} {var3}),1
+47,DSDT (v001 {string1} {string2} 0x{hex1} MSFT 0x{hex2}) @ 0x{hex3},1
+48,FADT (v{version} {manufacturer} {product} 0x{revision} {oem_id} 0x{creator_id}) @ 0x{address},1
+49,HPET (v{version} {manufacturer} {model} 0x{code} {company} 0x{code}) @ 0x{address},1
+50,HPET id: {id} base: {base},1
+51,INT_SRC_OVR (bus {bus} bus_irq {bus_irq} global_irq {global_irq} dfl dfl),1
+52,INT_SRC_OVR (bus {bus} bus_irq {bus_irq} global_irq {global_irq} {level}),1
+53,IOAPIC (id[{id}] address[{address}] gsi_base[{gsi_base}]),3
+54,IRQ0 used by {process}.,1
+55,IRQ{number} used by {source}.,1
+56,IRQ{int} used by override.,1
+57,Interpreter enabled,1
+58,LAPIC (acpi_id[{acpi_id}] lapic_id[{lapic_id}] enabled),4
+59,LAPIC_NMI (acpi_id[{acpi_id}] high edge lint[{lint}]),4
+60,Local APIC address {address},1
+61,MADT (v{version} {manufacturer} {product} 0x{code1} {code2} 0x{code3}) @ 0x{address},1
+62,MCFG (v{version} {manufacturer} {model} 0x{revision} {os} 0x{os_version}) @ {memory_address},1
+63,PCI Interrupt Link [{}] (IRQs {} {} {} {} {} {} {}) *{},1
+64,PCI Interrupt Link [LNKB] (IRQs {var1} {var2} {var3} {var4} {var5} *{var6} {var7} ),1
+65,PCI Interrupt Link [LNKC] (IRQs {IRQs}) *{value},1
+66,"PCI Interrupt Link [LNKD] (IRQs {IRQs}) *{number}, disabled.",1
+67,"PCI Interrupt Link [LNKE] (IRQs {IRQs}) *{number}, {status}.",1
+68,"PCI Interrupt Link [LNKF] (IRQs {IRQs}) *{value}, disabled.",1
+69,"PCI Interrupt Link [LNKG] (IRQs {IRQs}) *{number}, {status}.",1
+70,"PCI Interrupt Link [LNKH] (IRQs {IRQs}) *{value}, disabled.",1
+71,PCI Interrupt Routing Table [{pci_address}],10
+72,PCI Root Bridge [PCI{var1}] ({var2}:{var3}),1
+73,"PCI interrupt {device}[{status}] -> GSI {number} ({type}, {level}) -> IRQ {code}",4
+74,"PCI interrupt {device}[{type}] -> GSI {gsi} ({trigger}, {polarity}) -> IRQ {irq}",4
+75,"PCI interrupt {device}[{subdevice}] -> GSI {gsi} ({trigger}, {polarity}) -> IRQ {irq}",3
+76,Power Button ({}) [{}],1
+77,Processor [{CPU}] (supports {C-state}),4
+78,RSDP (v000 {manufacturer} ) @ {memory_address},1
+79,RSDT (v{version} {manufacturer} {model} 0x{revision} {os} 0x{os_version}) @ 0x{memory_address},1
+80,SPCR (v{version} {manufacturer} {model} 0x{code} {company} 0x{code}) @ 0x{address},1
+81,Subsystem revision {revision},1
+82,Using IOAPIC for interrupt routing,1
+83,Intel(R) Xeon(TM) CPU {frequency}GHz stepping {step},1
+84,L2 cache: {cache_size},5
+85,Physical Processor ID: {id},5
+86,"Trace cache: {trace_cache} uops, L1 D cache: {l1_d_cache}",5
+87,colour VGA+ {resolution},1
+88,mounted filesystem with ordered data mode.,3
+89,"sys_ia32.c,v {version} {date} {time} ak Exp $",1
+90,"apic_id {apic_id}, version {version}, address {address}, GSI {GSI}",3
+91,"routing cache hash table of {int} buckets, {int}Kbytes",1
+92,PCI Hot Plug PCI Core version: {version},1
+93,"root=LABEL=/ initrd={initrd} console=tty0 console=ttyS0,19200 fastboot BOOT_IMAGE={boot_image}",1
+94,Registered protocol family {integer},1
+95,Registered protocol family {number},3
+96,Registered protocol family {int},1
+97,Using software bounce buffering for IO (SWIOTLB),1
+98,Probing PCI hardware (bus {bus_number}),1
+99,Transparent bridge - {device},1
+100,Using ACPI for IRQ routing,1
+101,Using MMCONFIG at {address},1
+102,Using configuration type {config_type},1
+103,Compressed image found at block {block_number},1
+104,Disabled at {runtime}.,1
+105,Initializing.,1
+106,Registering netfilter hooks,1
+107,Starting in permissive mode,1
+108,Unregistering netfilter hooks,1
+109,Hash tables configured (established {established} bind {bind}),1
+110,Direct-Access ANSI SCSI revision: {revision},1
+111,Processor ANSI SCSI revision: {revision},1
+112,Disk quotas {dquot_version},1
+113,Mounted root ({filesystem} filesystem).,1
+114,MegaRAID Model: LD {ld_number} {raid_type} {size} Rev: {revision},1
+115,PE/PV Model: {model} SCSI BP Rev: {revision},1
+116,initialized,1
+117,initializing netlink socket ({status}),1
+118,passed.,1
+119,x.x.x-ioctl (yyyy-mm-dd) initialised: #{placeholder}#@#{placeholder}#,1
+120,allocating divert_blk for {interface},2
+121,not allocating divert_blk for non-ethernet device {device},2
+122,v{version}:USB HID core driver,1
+123,eth0: e1000_probe: {network_adapter},1
+124,eth0: e1000_watchdog: NIC Link is Up {speed} Mbps {duplex},1
+125,eth1: e1000_probe: {network_adapter},1
+126,no {device} controllers found,1
+127,RNG not detected,1
+128,Wait for ready failed before {action} !,6
+129,Assuming {system_bus_speed} system bus speed for PIO modes; override with idebus={xx},1
+130,Unknown cmd fd({fd}) cmd({cmd}){arg1} arg({arg2}) on {device},1
+131,({string}) {int}-{int} {string} {string} {string},3
+132,({placeholder}) Netfilter core team,1
+133,Installing public key data,1
+134,... autorun {STATUS}.,2
+135,Autodetecting RAID arrays.,2
+136,autorun ...,2
+137,"md driver {version} MAX_MD_DEVS={max_md_devs}, MD_SB_DISKS={md_sb_disks}",1
+138,#{number}#-rh1 (Release Date: {date} EST {year}),1
+139,#{number}# (Release Date: {date}),1
+140,fw version:[{fw_version}] bios version:[{bios_version}],1
+141,probe new device {device_id}: bus {bus_num}:slot {slot_num}:func {func_num},1
+142,PS/2 mouse device common for all mice,1
+143,v{version} ({date}),1
+144,rpc.statd startup succeeded,1
+145,portmap startup succeeded,1
+146,Starting ts_fixup: {status},1
+147,Version {version} Starting,1
+148,LSI Logic MegaRAID driver,1
+149,scanning scsi channel {channel} [Phy {phy}] for non-raid devices,1
+150,scanning scsi channel {channel_number} [{channel_type}] for logical drives,1
+151,asking for cache data {status},1
+152,assuming drive cache: {cache_type},1
+153,sda1 sda2 sda3 sda4,1
+154,Registering secondary module capability,1
+155,"i8042 AUX port at {hex},{hex} irq {number}",1
+156,"i8042 KBD port at {hex},{hex} irq {number}",1
+157,syslog-ng startup succeeded,1
+158,syslog-ng version {version} starting,1
+159,Detected {frequency} MHz processor.,1
+160,Using {frequency} MHz HPET timer.,1
+161,Using {timekeeping_method} based timekeeping.,1
+162,Creating Topspin {device} entries:,1
+163,registered new driver {driver_name},1
+164,registered new driver hub,1
+165,registered new driver {driver},2
+166,probe of {device} failed with error {error_code},1
+167,"connection from ""{client_id}""",1
+168,"User {user_id}, coming from {location}, authenticated.",2
+169,Now running on {user_id}'s privileges.,1
+170,Mounting NFS filesystems: {status},1
+171,Mounting other filesystems: {status},1
+172,Warning: we failed to resolve data source name {an},2
+173,Warning: we failed to resolve data source name {an1}{an2}{an3}{an4}{an5}{an6}{an7}{an8}{an9}{an10}{an11}{an12}{an13}{an14}{an15}{an16}{an17}{an18}{an19}{an20}{an21}{an22}{an23}{an24}{an25}{an26}{an27}{an28}{an29}{an30}{an31}{an32}{an33}{an34}{an35}{an36}{an37}{an38}{an39}{an40}{an41}{an42}{an43}{an44}{an45}{an46}{an47}{an48}{an49}{an50}{an51}{an52}{an53}{an54}{an55}{an56}{an57}{an58}{an59}{an60}{an61}{an62}{an63}{an64}{an65}{an66}{an67}{an68}{an69}{an70}{an71}{an72}{an73}{an74}{an75}{an76}{an77}{an78}{an79}{an80}{an81}{an82}{an83}{an84}{an85}{an86}{an87}{an88}{an89}{an90}{an91}{an92}{an93}{an94}{an95}{an96}{an97}{an98}{an99}{an100}{an101}{an102}{an103}{an104}{an105}{an106}{an107}{an108}{an109}{an110}{an111}{an112}{an113}{an114}{an115}{an116}{an117}{an118}{an119}{an120}{an121}{an122}{an123}{an124}{an125}{an126}{an127}{an128}{an129}{an130}{an131}{an132}{an133}{an134}{an135}{an136}{an137}{an138}{an139}{an140}{an141}{an142}{an143}{an144}{an145}{an146}{an147}{an148}{an149}{an150}{an151}{an152}{an153}{an154}{an155}{an156}{an157}{an158}{an159}{an160}{an161}{an162}{an163}{an164}{an165}{an166}{an167}{an168}{an169}{an170}{an171}{an172}{an173}{an174}{an175}{an176}{an177}{an178}{an179}{an180}{an181}{an182}{an183}{an184}{an185}{an186}{an187}{an188}{an189}{an190}{an191}{an192}{an193}{an194}{an195}{an196}{an197}{an198}{an199}{an200}{an201}{an202}{an203}{an204}{an205}{an206}{an207}{an208}{an209}{an210}{an211}{an212}{an213}{an214}{an215}{an216},1
+174,Warning: we failed to resolve data source name {an1} {an2} {an3} {an4} {an5} {an6} {an7} {an8} {an9} {an10} {an11} {an12} {an13} {an14} {an15} {an16} {an17} {an18} {an19} {an20} {an21} {an22} {an23} {an24} {an25} {an26} {an27} {an28} {an29} {an30} {an31} {an32} {an33} {an34} {an35} {an36} {an37} {an38} {an39} {an40} {an41} {an42} {an43} {an44} {an45} {an46} {an47} {an48} {an49} {an50} {an51} {an52} {an53} {an54} {an55} {an56} {an57} {an58} {an59} {an60} {an61} {an62} {an63} {an64} {an65} {an66} {an67} {an68} {an69} {an70} {an71} {an72} {an73} {an74} {an75} {an76} {an77} {an78} {an79} {an80} {an81} {an82} {an83} {an84} {an85} {an86} {an87} {an88} {an89} {an90} {an91} {an92} {an93} {an94} {an95} {an96} {an97} {an98} {an99} {an100} {an101} {an102} {an103} {an104} {an105} {an106} {an107} {an108} {an109} {an110} {an111} {an112} {an113} {an114} {an115} {an116} {an117} {an118} {an119} {an120} {an121} {an122} {an123} {an124} {an125} {an126} {an127} {an128} {an129} {an130} {an131} {an132} {an133} {an134} {an135} {an136} {an137} {an138} {an139} {an140} {an141} {an142} {an143} {an144} {an145} {an146} {an147} {an148} {an149} {an150} {an151} {an152} {an153} {an154} {an155} {an156} {an157} {an158} {an159} {an160} {an161} {an162} {an163} {an164} {an165} {an166} {an167} {an168} {an169} {an170} {an171} {an172} {an173} {an174} {an175} {an176} {an177} {an178} {an179} {an180} {an181} {an182} {an183} {an184} {an185} {an186} {an187} {an188} {an189} {an190} {an191} {an192} {an193} {an194} {an195} {an196} {an197} {an198} {an199} {an200} {an201} {an202} {an203} {an204} {an205} {an206} {an207} {an208} {an209} {an210} {an211} {an212} {an213} {an214} {an215} {an216} {an217} {an218} {an219} {an220} {an221} {an222} {an223} {an224} {an225} {an226} {an227} {an228} {an229} {an230} {an231} {an232} {an233} {an234} {an235} {an236} {an237} {an238} {an239} {an240} {an241} {an242} {an243} {an244} {an245} {an246} {an247} {an248} {an249} {an250} {an251} {an252} {an253} {an254} {an255} {an256} {an257} {an258} {an259} {an260} {an261} {an262} {an263} {an264} {an265} {an266} {an267} {an268} {an269} {an270} {an271} {an272} {an273} {an274} {an275} {an276} {an277} {an278} {an279} {an280} {an281} {an282} {an283} {an284} {an285} {an286} {an287} {an288} {an289} {an290} {an291} {an292} {an293} {an294} {an295} {an296} {an297} {an298} {an299} {an300} {an301} {an302} {an303} {an304} {an305} {an306} {an307} {an308} {an309} {an310} {an311} {an312} {an313} {an314} {an315} {an316} {an317} {an318} {an319} {an320} {an321} {an322} {an323} {an324} {an325} {an326} {an327} {an328} {an329} {an330} {an331} {an332} {an333} {an334} {an335} {an336} {an337} {an338} {an339} {an340} {an341} {an342} {an343} {an344} {an345},1
+175,Warning: we failed to resolve data source name {an398} {an399} {an400} {an401} {an402} {an403} {an404} {an405} {an406} {an407} {an408} {an409} {an410} {an411} {an412} {an413} {an414} {an415} {an416} {an417} {an418} {an419} {an420} {an421} {an422} {an423} {an424} {an425} {an426} {an427} {an428} {an429} {an430} {an431} {an432} {an433} {an434} {an435} {an436} {an437} {an438} {an439} {an440} {an441} {an442} {an443} {an444} {an445} {an446} {an447} {an448} {an449} {an450} {an451} {an452} {an453} {an454} {an455} {an456} {an457} {an458} {an459} {an460} {an461} {an462} {an463} {an464} {an465} {an466} {an467} {an468} {an469} {an470} {an471} {an472} {an4},1
+176,Warning: we failed to resolve data source name {dynamic_variables},10
+177,Warning: we failed to resolve data source name {an654} {an655} {an656} {an657} {an658} {an659} {an660} {an661} {an662} {an663} {an664} {an665} {an666} {an667} {an668} {an669} {an670} {an671} {an672} {an673} {an674} {an675} {an676} {an677} {an678} {an679} {an680} {an681} {an682} {an683} {an684} {an685} {an686} {an687} {an688} {an689} {an690} {an691} {an692} {an693} {an694} {an695} {an696} {an697} {an698} {an699} {an700} {an701} {an702} {an703} {an704} {an705} {an706} {an707} {an708} {an709} {an710} {an711} {an712} {an713} {an714} {an715} {an716} {an717} {an718} {an719} {an720} {an721} {an722} {an723} {an724} {an725} {an726} {an727} {an728},1
+178,Warning: we failed to resolve data source name {an_num},1
+179,Warning: we failed to resolve data source name {data_source_names},4
+180,Warning: we failed to resolve data source name {bn_range},1
+181,Warning: we failed to resolve data source name {dynamic_variable},2
+182,Warning: we failed to resolve data source name {bn_num},1
+183,Log template: `Warning: we failed to resolve data source name {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable} {dynamic_variable},2
+184,"connection from ""{variable}""",1
+185,Warning: we failed to resolve data source name {bn9}...,1
+186,Warning: we failed to resolve data source name {dn},2
+187,Warning: we failed to resolve data source name {dn_range},3
+188,Warning: we failed to resolve data source name {data_sources},1
+189,Warning: we failed to resolve trusted host name {hostname1} {hostname2},1
+190,gmetad startup succeeded,1
+191,Now running on {user}'s privileges.,1
+192,succeeded,2
+193,Server listening on {ip_address} port {port_number}.,1
+194,error: Bind to port {port} on {ip_address} failed: {error_message}.,1
+195,Cannot open file {file_path} for writing ({error_message}),1
+196,Changing permissions on special file {file_path},1
+197,xinetd startup succeeded,1
+198,Reading included configuration file: {file_path} [file={file_name}] [line={line_number}],7
+199,Reading included configuration file: {file} [file={file}] [line={line}],10
+200,Started working: {number} available service,1
+201,removing chargen,2
+202,removing {variable},6
+203,removing {service_name},1
+204,removing {service},2
+205,removing {process},1
+206,removing {module},1
+207,removing printer,1
+208,removing rsync,1
+209,removing telnet,1
+210,xinetd Version {version} started with libwrap {options} options compiled in.,1
+211,"jA9JBWEr014256: to={to}, ctladdr={ctladdr} ({ctladdr_count}/{ctladdr_total}), delay={delay}, xdelay={xdelay}, mailer={mailer}, pri={pri}, relay=[{relay_ip}] [{relay_hostname}], dsn={dsn}, stat={stat}",1
+212,"jA9JBXgf{number}: to={string}, ctladdr={string} ({number}/{number}), delay={time}, xdelay={time}, mailer={string}, pri={number}, relay=[{ip}] [{ip}], dsn={number}.{number}.{number}, stat={string}",1
+213,"jA9JBXVI027337: to={to}, ctladdr={ctladdr} ({ctladdr_count}/{ctladdr_total}), delay={delay}, xdelay={xdelay}, mailer={mailer}, pri={pri}, relay=[{relay_ip}] [{relay_hostname}], dsn={dsn}, stat={stat}",1
+214,"Device: {device}, Temperature changed {old_temp} Celsius to {new_temp} Celsius since last report",1

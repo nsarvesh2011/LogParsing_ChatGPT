@@ -1,0 +1,67 @@
+,EventTemplate,Occurrences
+0,PacketResponder {} for block {} terminating,306
+1,BLOCK* NameSystem.addStoredBlock: blockMap updated: %s is added to %s size %d,307
+2,Received block {block_id} of size {block_size} from {source_ip},107
+3,Receiving block blk_{block_id} src: {source_address} dest: {destination_address},223
+4,BLOCK* NameSystem.allocateBlock: {}. blk_{},105
+5,Received block blk_{block_id} of size {block_size} from {source_ip},156
+6,Receiving block blk_-{src} src: {src_ip}:{src_port} dest: {dest_ip}:{dest_port},18
+7,Verification succeeded for {block_id},9
+8,Receiving block blk_-{block_id} src: {source_address} dest: {destination_address},22
+9,Received block blk_-{block_id} of size {block_size} from {source_ip},4
+10,BLOCK* NameSystem.allocateBlock: {}. {},2
+11,Received block blk_- of size  from /,1
+12,Deleting block {block_id} file {file_path},62
+13,{IP address}:{port} Served block {block ID} to {destination IP address},31
+14,<source IP>:<port> Served block <block ID> to <destination IP>,3
+15,{IP}:{PORT}:Got exception while serving {BLOCK_ID} to /{DESTINATION_IP}:,46
+16,{IP}:{PORT}:Got exception while serving {BLOCK_ID} to /{CLIENT_IP}:,20
+17,{source_ip}:{source_port} Served block {block_id} to {destination_ip},1
+18,{IP}:{PORT}:Got exception while serving {BLOCK_ID} to {DESTINATION_IP},8
+19,{IP}:{Port}:Got exception while serving {Block ID} to /{Client IP}:,1
+20,{source_ip}:{port} Served block {block_id} to {destination_ip},7
+21,{IP}:{PORT}:Got exception while serving {BLOCK_ID} to {DESTINATION_IP}:{DESTINATION_PORT},2
+22,<component> <number> for block <block_id> terminating,5
+23,BLOCK* NameSystem.allocateBlock: {file_path}. {block_id},4
+24,Receiving block blk_-{src} src: {src} dest: {dest},17
+25,Received block blk_-{block_id} of size {block_size} from /{source_ip},13
+26,Verification succeeded for blk_{block_id},1
+27,Verification succeeded for blk_{block_number},8
+28,BLOCK* NameSystem.allocateBlock: /user/root/randtxt/_temporary/_task_{task_id}_m_{mapper_id}_{attempt_id}/part-{part_id}. blk_{block_id},1
+29,Received block blk_-{block_number} of size {block_size} from {source_ip},1
+30,BLOCK* NameSystem.delete: blk_{block_id} is added to invalidSet of {datanode_ip}:{port},185
+31,<IP address>:<port> Served block <block ID> to <destination IP address>,6
+32,{source IP}:{port} Served block {block ID} to {destination IP},1
+33,{IP_ADDRESS}:{PORT} Served block {BLOCK_ID} to {DESTINATION_IP_ADDRESS},6
+34,Served block {block_id} to {destination_address},3
+35,{source IP}:{source port} Served block {block ID} to {destination IP},4
+36,{IP}:{PORT} Served block {BLOCK_ID} to {DESTINATION_IP},8
+37,%s Served block %s to %s,8
+38,{IP}:{PORT}:Got exception while serving {BLOCK_ID} to {CLIENT_IP},1
+39,Verification succeeded for {block_number},2
+40,{IP address}:{port}:Got exception while serving {block ID} to /{destination IP address}:,1
+41,BLOCK* NameSystem.delete: blk_{block_id} is added to invalidSet of {ip_address}:{port_number},21
+42,BLOCK* NameSystem.delete: blk_{block_id} is added to invalidSet of {ip_address}:{port},17
+43,Deleting block blk_{block_id} file {file_path},201
+44,Received block blk_{block_number} of size {block_size} from {source_ip},9
+45,Receiving block blk_{block_id} src: {source_ip}:{source_port} dest: {destination_ip}:{destination_port},2
+46,Receiving block blk_-{block_id} src: {source_ip}:{source_port} dest: {destination_ip}:{destination_port},5
+47,BLOCK* NameSystem.addStoredBlock: blockMap updated: %s is added to %s size %s,7
+48,{IP address}:50010 Served block {block ID} to {destination IP address},1
+49,{IP address}:50010 Served block {block ID} to /{destination IP address},1
+50,{IP}:{PORT}:Got exception while serving {BLOCK_ID} to {DESTINATION_IP}:,1
+51,BLOCK* NameSystem.delete: blk_{block_id} is added to invalidSet of {datanode_address},1
+52,{source_ip}:{source_port} Starting thread to transfer block {block_id} to {destination_ip}:{destination_port},1
+53,BLOCK* ask [IP]:[PORT] to delete [BLOCK_ID],2
+54,Receiving block blk_-{src_ip} src: {src}:49600 dest: {dest}:50010,1
+55,Receiving block blk_-<block_id> src: <source_address> dest: <destination_address>,2
+56,BLOCK* NameSystem.allocateBlock: /user/root/{path}/_temporary/_task_{task_id}_m_{mapper_id}_{attempt_id}/part-{part_id}. blk_{block_id},1
+57,Receiving block blk_-{src} src: {src_ip} dest: {dest_ip},1
+58,Received block blk_-{block_number} of size {block_size} from /{source_ip},1
+59,Received block blk_{block_id} src: {source_address} dest: {destination_address} of size {block_size},2
+60,BLOCK* ask [IP]:[port] to delete [list of block IDs],1
+61,BLOCK* ask [IP]:[port] to delete [block IDs],1
+62,BLOCK* NameSystem.allocateBlock: {file_path} blk_{block_id},2
+63,BLOCK* ask [source IP]:[source port] to replicate [block ID] to datanode(s) [destination IP]:[destination port],1
+64,BLOCK* ask {}:{} to delete {} {} {} {} {} {} {} {} {},1
+65,Receiving block blk_-<block_id> src: <source_ip>:<source_port> dest: <destination_ip>:<destination_port>,1

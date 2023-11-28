@@ -1,0 +1,206 @@
+,EventTemplate,Occurrences
+0,data_thread() got not answer from any [<*>],815
+1,"synchronized to <*>, stratum <*>",567
+2,[ib_sm_sweep.c:<*>]: <*>,109
+3,[ib_sm_sweep.c:<*>]: ********************** NEW SWEEP ********************,62
+4,Warning: we failed to resolve data source name <*>,34
+5,session closed for user <*>,24
+6,session opened for user <*> by (uid=<*>),19
+7,Reading included configuration file: <*> [file=<*>] [line=<*>],17
+8,DHCPDISCOVER from <*> via eth1: network <*>: <*>,15
+9,[ib_sm_sweep.c:<*>]: No topology change,15
+10,(<*>) CMD (run-parts <*>),14
+11,unable to qualify my own domain name (<*>) -- using short name,10
+12,DHCPREQUEST for <*> (<*>) from <*> via <*>: <*>,9
+13,"PCI interrupt <*>[A] -> GSI <*> (<*>, <*>) -> IRQ <*>",9
+14,RRD_update (<*>): illegal attempt to update using time <*> when last update time is <*> (minimum one second step),8
+15,Wait for ready failed before probe !,6
+16,DHCPDISCOVER from <*> via eth1,5
+17,DHCPOFFER on <*> to <*> via eth1,5
+18,My unqualified host name (<*>) unknown; sleeping for retry,5
+19,L2 cache: <*>,5
+20,Physical Processor ID: <*>,5
+21,"Trace cache: <*> uops, L1 D cache: <*>",5
+22,Registered protocol family <*>,5
+23,data_thread() got not answer from any [<*>] datasource,4
+24,LAPIC (acpi_id[<*>] lapic_id[<*>] enabled),4
+25,LAPIC_NMI (acpi_id[<*>] high edge lint[<*>]),4
+26,PCI Interrupt Routing Table [\{interrupt_routing_table\}],4
+27,PCI Interrupt Routing Table [<*>],4
+28,Processor [<*>] (supports C1),4
+29,(C) <*>-<*> Netfilter core team,4
+30,Local disconnected: Connection closed.,3
+31,connection lost: '<*>',3
+32,DHCPACK on <*> to <*> via eth1,3
+33,DHCPREQUEST for <*> (<*>) from <*> via <*>,3
+34,RRD_update (<*> Nodes/dn731/pkts_out.rrd): illegal attempt to update using time <*> when last update time is <*> (minimum one second step),3
+35,IOAPIC (id[<*>] address[<*>] gsi_base[<*>]),3
+36,mounted filesystem with ordered data mode.,3
+37,"apic_id <*>, version <*>, address <*>, GSI <*>",3
+38,"PCI interrupt <*> -> GSI <*> (<*>, <*>) -> IRQ <*>",2
+39,allocating divert_blk for <*>,2
+40,... autorun DONE.,2
+41,Autodetecting RAID arrays.,2
+42,autorun ...,2
+43,"connection from ""<*>""",2
+44,"User <*>, coming from <*>, authenticated.",2
+45,Now running on <*>'s privileges.,2
+46,succeeded,2
+47,removing chargen,2
+48,removing daytime,2
+49,removing echo,2
+50,removing time,2
+51,"jA9J1UvC004306: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>",1
+52,"jA9J1UvC004306: to=<*>, ctladdr=<*> (0/0), delay=<*>, xdelay=<*>, mailer=relay, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=<*>",1
+53,"jA9J1Wd7019391: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>",1
+54,"jA9J1Wd7019391: to=<*>, ctladdr=<*> (0/0), delay=<*>, xdelay=<*>, mailer=relay, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=<*>",1
+55,"jA9J1WSU011176: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>",1
+56,"jA9J1WSU011176: to=<*>, ctladdr=<*> (0/0), delay=<*>, xdelay=<*>, mailer=relay, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=<*>",1
+57,"jA9J1WFE024258: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>",1
+58,"jA9J1WFE024258: to=<*>, ctladdr=<*> (<*>), delay=<*>, xdelay=<*>, mailer=<*>, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=<*>",1
+59,"jA9J1dQ7016560: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>",1
+60,"jA9J1dQ7016560: to=<*>, ctladdr=<*> (0/0), delay=<*>, xdelay=<*>, mailer=relay, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=<*>",1
+61,START: tftp pid=<*> from=<*>,1
+62,kernel time sync disabled <*>,1
+63,time reset <*> s,1
+64,Received SNMP packet(s) from <*>,1
+65,"synchronized to LOCAL(<*>), stratum <*>",1
+66,kernel time sync enabled <*>,1
+67,(<*>) CMD (<*>),1
+68,(<*>) CMD (<*> b),1
+69,(<*>) CMD (<*> c),1
+70,(<*>) CMD (<*> <*>),1
+71,(<*>) CMD (<*> e),1
+72,CentOS-<*> (Kernel Module GPG key),1
+73,(supports <*> <*> <*>),1
+74,DSDT (v001 DELL PE BKC <*> MSFT <*>) @ <*>,1
+75,FADT (v001 DELL PE BKC <*> MSFT <*>) @ <*>,1
+76,HPET (v001 DELL PE BKC <*> MSFT <*>) @ <*>,1
+77,HPET id: <*> base: <*>,1
+78,INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> dfl dfl),1
+79,INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> <*>),1
+80,IRQ0 used by override.,1
+81,IRQ2 used by override.,1
+82,IRQ9 used by override.,1
+83,Interpreter enabled,1
+84,Local APIC address <*>,1
+85,MADT (v001 DELL PE BKC <*> MSFT <*>) @ <*>,1
+86,MCFG (v001 DELL PE BKC <*> MSFT <*>) @ <*>,1
+87,PCI Interrupt Link [LNKA] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>) *14,1
+88,PCI Interrupt Link [LNKB] (IRQs <*> <*> <*> <*> <*> <*> *11 <*>),1
+89,PCI Interrupt Link [LNKC] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>) *15,1
+90,"PCI Interrupt Link [LNKD] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>) *0, disabled.",1
+91,"PCI Interrupt Link [LNKE] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>) *0, disabled.",1
+92,"PCI Interrupt Link [LNKF] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>) *0, disabled.",1
+93,"PCI Interrupt Link [LNKG] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>) *0, disabled.",1
+94,"PCI Interrupt Link [LNKH] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>) *0, disabled.",1
+95,[<*>],1
+96,PCI Interrupt Routing Table [\{address\}],1
+97,PCI <*> Bridge [PCI0] (<*>),1
+98,Power Button (FF) [PWRF],1
+99,RSDP (v000 <*> ) @ <*>,1
+100,RSDT (v001 DELL PE BKC <*> MSFT <*>) @ <*>,1
+101,SPCR (v001 DELL PE BKC <*> MSFT <*>) @ <*>,1
+102,Subsystem revision <*>,1
+103,Using IOAPIC for interrupt routing,1
+104,Intel(R) Xeon(TM) CPU <*> stepping <*>,1
+105,colour VGA+ 80x25,1
+106,"sys_ia32.c,v <*> <*> ak Exp $",1
+107,"routing cache hash table of <*> buckets, 1024Kbytes",1
+108,PCI Hot Plug PCI Core version: <*>,1
+109,"<*>=LABEL=/ initrd=<*> console=tty0 console=ttyS0,<*> fastboot BOOT_IMAGE=<*>",1
+110,Using software bounce buffering for IO (SWIOTLB),1
+111,Probing PCI hardware (bus <*>),1
+112,Transparent bridge - <*>,1
+113,Using ACPI for IRQ routing,1
+114,Using MMCONFIG at <*>,1
+115,Using configuration type <*>,1
+116,Compressed image found at block <*>,1
+117,Disabled at runtime.,1
+118,Initializing.,1
+119,Registering netfilter hooks,1
+120,Starting in permissive mode,1
+121,Unregistering netfilter hooks,1
+122,Hash tables configured (established <*> bind <*>),1
+123,Direct-Access ANSI SCSI revision: <*>,1
+124,Processor ANSI SCSI revision: <*>,1
+125,Disk quotas dquot_6.<*>,1
+126,Mounted <*> (ext2 filesystem).,1
+127,MegaRAID Model: LD <*> RAID1 139G Rev: 516A,1
+128,PE/PV Model: <*> SCSI BP Rev: <*>,1
+129,initialized,1
+130,initializing netlink socket (disabled),1
+131,passed.,1
+132,<*>-ioctl (YYYY-MM-DD) initialised: <*>@#<*>,1
+133,not allocating divert_blk for non-ethernet device lo,1
+134,v2.<*>:USB HID core driver,1
+135,eth0: e1000_probe: Intel(R) PRO/1000 Network Connection,1
+136,eth0: e1000_watchdog: NIC Link is Up <*> Mbps <*>,1
+137,eth1: e1000_probe: Intel(R) PRO/1000 Network Connection,1
+138,no floppy controllers found,1
+139,RNG not detected,1
+140,Assuming 33MHz system bus speed for PIO modes; override with idebus=<*>,1
+141,Unknown cmd fd(<*>) cmd(<*>)<*> arg(ffffda44) on <*>,1
+142,Installing public key data,1
+143,"md driver <*> MAX_MD_DEVS=<*>, MD_SB_DISKS=<*>",1
+144,<*>-rh1 (Release Date: Fri Dec <*> <*> EST <*>),1
+145,<*> (Release Date: <*>),1
+146,fw version:[<*>] bios version:[<*>],1
+147,probe new device <*>: bus <*>:slot <*>:func <*>,1
+148,PS/2 mouse device common for all mice,1
+149,v2.<*> (<*>),1
+150,rpc.statd startup succeeded,1
+151,portmap startup succeeded,1
+152,Starting ts_fixup: succeeded,1
+153,Version <*> Starting,1
+154,LSI Logic MegaRAID driver,1
+155,scanning scsi channel <*> [Phy <*>] for non-raid devices,1
+156,scanning scsi channel <*> [<*>] for logical drives,1
+157,asking for cache data failed,1
+158,assuming drive cache: write through,1
+159,sda1 sda2 sda3 sda4,1
+160,Registering secondary module capability,1
+161,"i8042 AUX port at <*>,<*> irq <*>",1
+162,"i8042 KBD port at <*>,<*> irq <*>",1
+163,syslog-ng startup succeeded,1
+164,syslog-ng version <*> starting,1
+165,Detected <*> MHz processor.,1
+166,Using <*> MHz HPET timer.,1
+167,Using HPET based timekeeping.,1
+168,Creating Topspin <*> entries:,1
+169,registered new driver hiddev,1
+170,registered new driver hub,1
+171,registered new driver usbfs,1
+172,registered new driver usbhid,1
+173,probe of <*> failed with error <*>,1
+174,Mounting NFS filesystems: succeeded,1
+175,Mounting other filesystems: failed,1
+176,Warning: we failed to resolve trusted host name <*>,1
+177,gmetad startup succeeded,1
+178,not allocating divert_blk for non-ethernet device <*>,1
+179,Server listening on :: port <*>.,1
+180,error: Bind to port <*> on <*> failed: <*>.,1
+181,Cannot open file <*> for writing (<*>),1
+182,Changing permissions on special file <*>,1
+183,xinetd startup succeeded,1
+184,Started working: <*> available service,1
+185,removing eklogin,1
+186,removing ftp,1
+187,removing klogin,1
+188,removing kshell,1
+189,removing ntalk,1
+190,removing printer,1
+191,removing rsync,1
+192,removing telnet,1
+193,xinetd Version <*> started with libwrap loadavg options compiled in.,1
+194,"jA9JBVPb007417: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>",1
+195,"jA9JBVPb007417: to=<*>, ctladdr=<*> (0/0), delay=<*>, xdelay=<*>, mailer=relay, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=<*>",1
+196,"jA9JBWxH019649: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>",1
+197,"jA9JBWxH019649: to=<*>, ctladdr=<*> (<*>), delay=<*>, xdelay=<*>, mailer=<*>, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=<*>",1
+198,"jA9JBWEr014256: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>",1
+199,"jA9JBWEr014256: to=<*>, ctladdr=<*> (0/0), delay=<*>, xdelay=<*>, mailer=relay, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=<*>",1
+200,"jA9JBXgf022479: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>",1
+201,"jA9JBXgf022479: to=<*>, ctladdr=<*> (0/0), delay=<*>, xdelay=<*>, mailer=relay, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=<*>",1
+202,"jA9JBXVI027337: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>",1
+203,"jA9JBXVI027337: to=<*>, ctladdr=<*> (0/0), delay=<*>, xdelay=<*>, mailer=relay, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=<*>",1
+204,"Device: <*>, Temperature changed <*> Celsius to <*> Celsius since last report",1

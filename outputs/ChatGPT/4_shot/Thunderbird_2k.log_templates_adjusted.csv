@@ -1,0 +1,176 @@
+,EventTemplate,Occurrences
+0,data_thread() got not answer from any [<*>] datasource,590
+1,"synchronized to <*>, stratum <*>",568
+2,<*>() got not answer from any [<*>] datasource,229
+3,[ib_sm_sweep.c:<*>]: ********************** NEW SWEEP ********************,62
+4,[ib_sm_sweep.c:<*>]: No configuration change required,62
+5,[ib_sm_sweep.c:<*>]: No topology change,52
+6,Warning: we failed to resolve data source name <*>,34
+7,session closed for user <*>,24
+8,session opened for user <*> by (uid=<*>),19
+9,Reading included configuration file: <*> [file=<*>] [line=<*>],17
+10,removing <*>,16
+11,DHCPDISCOVER from <*> via <*>: <*>: no free leases,15
+12,(<*>) CMD (<*>),14
+13,RRD_update (<*>): illegal attempt to update using time <*> when last update time is <*> (minimum one second step),11
+14,"PCI interrupt <*>[<*>] -> GSI <*> (<*>, <*>) -> IRQ <*>",11
+15,[ib_sm_sweep.c:<*>]: <*>,10
+16,unable to qualify my own domain name (<*>) -- using short name,10
+17,DHCPREQUEST for <*> (<*>) from <*> via <*>: <*>,9
+18,<*>,9
+19,<*> Interrupt Routing Table [<*>],7
+20,<*> from <*> via <*>,5
+21,DHCPOFFER on <*> to <*> via <*>,5
+22,(<*>) CMD (<*> <*>),5
+23,My unqualified host name (<*>) unknown; sleeping for retry,5
+24,L2 cache: <*>,5
+25,Physical Processor ID: <*>,5
+26,"Trace cache: <*> uops, L1 D cache: <*>",5
+27,Registered protocol family <*>,5
+28,<*> startup succeeded,5
+29,LAPIC (acpi_id[<*>] lapic_id[<*>] enabled),4
+30,Processor [<*>] (supports <*>),4
+31,registered new driver <*>,4
+32,connection lost: '<*>',3
+33,DHCPACK on <*> to <*> via <*>,3
+34,DHCPREQUEST for <*> (<*>) from <*> via <*>,3
+35,(<*>),3
+36,<*> (<*> <*> <*> <*> <*> <*>) @ <*>,3
+37,IOAPIC (id[<*>] address[<*>] gsi_base[<*>]),3
+38,<*> (acpi_id[<*>] <*> edge lint[<*>]),3
+39,"<*> Interrupt Link [<*>] (IRQs <*>) <*>, <*>.",3
+40,mounted filesystem with ordered data mode.,3
+41,"apic_id <*>, version <*>, address <*>, GSI <*>",3
+42,<*> disconnected: <*>.,2
+43,<*> [<*>],2
+44,<*>: <*>: <*>,2
+45,Wait for ready failed before probe !,2
+46,(C) <*>-<*> Netfilter core team,2
+47,... autorun DONE.,2
+48,Autodetecting RAID arrays.,2
+49,autorun ...,2
+50,"connection from ""<*>""",2
+51,"User <*>, coming from <*>, authenticated.",2
+52,Now running on #<*>'s privileges.,2
+53,"jA9J1UvC004306: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>",1
+54,"jA9J1UvC004306: to=<*>, ctladdr=<*> (<*>/<*>), delay=<*>, xdelay=<*>, mailer=<*>, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=<*>",1
+55,"jA9J1Wd7019391: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>",1
+56,"jA9J1Wd7019391: to=<*>, ctladdr=<*> (<*>), delay=<*>, xdelay=<*>, mailer=<*>, pri=<*>, relay=<*> [<*>] [<*>], stat=<*>",1
+57,"jA9J1WSU011176: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>",1
+58,"jA9J1WSU011176: to=<*>, ctladdr=<*> (<*>/<*>), delay=<*>, xdelay=<*>, mailer=<*>, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=<*>",1
+59,"jA9J1WFE024258: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>",1
+60,"jA9J1WFE024258: to=<*>, ctladdr=<*> (<*>), delay=<*>, xdelay=<*>, mailer=<*>, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=<*>",1
+61,"jA9J1dQ7016560: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>@<*>",1
+62,"jA9J1dQ7016560: to=<*>, ctladdr=<*> (<*>), delay=<*>, xdelay=<*>, mailer=<*>, pri=<*>, relay=<*> [<*>] [<*>], stat=<*>",1
+63,START: tftp pid=<*> from=<*>,1
+64,kernel time sync disabled <*>,1
+65,time reset <*> s,1
+66,Received SNMP packet(s) from <*>,1
+67,kernel time sync enabled <*>,1
+68,<*>-<*> (Kernel Module <*> key),1
+69,DSDT (v001 <*> <*> <*> <*> <*>) @ <*>,1
+70,HPET (v001 <*> <*> <*> <*> <*>) @ <*>,1
+71,<*> id: <*> base: <*>,1
+72,INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> <*> <*>),1
+73,INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> <*> level),1
+74,<*> enabled,1
+75,<*> (acpi_id[<*>] <*> lint[<*>]),1
+76,Local APIC address <*>,1
+77,MADT (v001 <*> <*> <*> <*> <*>) @ <*>,1
+78,MCFG (<*> <*> <*> <*> <*> <*>) @ <*>,1
+79,PCI Interrupt Link [LNKA] (IRQs <*>) <*>,1
+80,PCI Interrupt Link [<*>] (IRQs <*>),1
+81,PCI Interrupt Link [LNKC] (IRQs <*>) <*>,1
+82,"PCI Interrupt Link [LNKF] (IRQs <*>) <*>, disabled.",1
+83,"PCI Interrupt Link [LNKG] (IRQs <*>) <*>, disabled.",1
+84,PCI Interrupt Routing Table [<*>],1
+85,<*> [<*>] (<*>),1
+86,<*> (<*>) [<*>],1
+87,<*> (<*> <*> ) @ <*>,1
+88,Subsystem revision <*>,1
+89,Using <*> for interrupt routing,1
+90,<*> stepping <*>,1
+91,<*> VGA+ <*>,1
+92,"<*>,v <*> <*> <*> <*> Exp $",1
+93,"<*> hash table of <*> buckets, <*>",1
+94,<*> version: <*>,1
+95,<*>=<*> initrd=<*> console=<*> console=<*> fastboot BOOT_IMAGE=<*>,1
+96,Using software bounce buffering for IO (<*>),1
+97,Probing PCI hardware (bus <*>),1
+98,Transparent bridge - <*>,1
+99,Using ACPI for IRQ routing,1
+100,Using MMCONFIG at <*>,1
+101,Using configuration type <*>,1
+102,Compressed image found at block <*>,1
+103,<*> at runtime.,1
+104,Initializing.,1
+105,Registering netfilter hooks,1
+106,Starting in <*> mode,1
+107,Unregistering <*> hooks,1
+108,<*> configured (established <*> bind <*>),1
+109,Direct-Access ANSI SCSI revision: <*>,1
+110,Processor ANSI SCSI revision: <*>,1
+111,<*> quotas <*>,1
+112,<*> <*> (<*> filesystem).,1
+113,MegaRAID Model: <*> <*> <*> Rev: <*>,1
+114,<*> Model: <*> <*> BP Rev: <*>,1
+115,initialized,1
+116,initializing netlink socket (<*>),1
+117,passed.,1
+118,<*> (YYYY-MM-DD) initialised: <*>@<*>,1
+119,allocating divert_blk for <*>,1
+120,allocating <*> for <*>,1
+121,not allocating divert_blk for non-<*> device <*>,1
+122,<*>:USB HID core driver,1
+123,eth0: e1000_watchdog: NIC Link is Up <*> Mbps <*>,1
+124,no <*> controllers found,1
+125,<*> not detected,1
+126,Assuming <*> system bus speed for PIO modes; override with idebus=<*>,1
+127,Unknown cmd fd(<*>) cmd(<*>)<*> arg(<*>) on <*>,1
+128,Installing public key data,1
+129,"<*> driver <*> MAX_MD_DEVS=<*>, MD_SB_DISKS=<*>",1
+130,<*>-rh1 (Release Date: <*> <*> <*> <*>),1
+131,<*> (Release Date: <*>),1
+132,fw version:[<*>] bios version:[<*>],1
+133,probe new device <*>: bus <*>:slot <*>:func <*>,1
+134,<*> device common for all <*>,1
+135,<*> (<*>),1
+136,Starting <*>: <*>,1
+137,Version <*> Starting,1
+138,<*> driver,1
+139,scanning scsi channel <*> [Phy <*>] for non-raid devices,1
+140,scanning scsi channel <*> [<*>] for logical drives,1
+141,asking for cache data failed,1
+142,assuming drive cache: <*>,1
+143,<*> <*> <*> <*>,1
+144,Registering <*> module capability,1
+145,<*> port at <*> irq <*>,1
+146,<*> <*> port at <*> irq <*>,1
+147,<*> version <*> starting,1
+148,Detected <*> MHz processor.,1
+149,Using <*> MHz HPET timer.,1
+150,Using HPET based timekeeping.,1
+151,Creating Topspin <*> entries:,1
+152,probe of <*> failed with error <*>,1
+153,Mounting NFS filesystems: <*>,1
+154,Mounting <*>: failed,1
+155,Warning: we failed to resolve trusted host name <*>,1
+156,not allocating divert_blk for non-ethernet device <*>,1
+157,<*> listening on <*> port <*>.,1
+158,error: Bind to port <*> on <*> failed: <*>,1
+159,Cannot open file <*> for writing (<*>),1
+160,Changing permissions on special file <*>,1
+161,Started working: <*> available service,1
+162,<*> Version <*> started with <*> options compiled in.,1
+163,"jA9JBVPb007417: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>",1
+164,"jA9JBVPb007417: to=<*>, ctladdr=<*> (<*>/<*>), delay=<*>, xdelay=<*>, mailer=<*>, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=<*>",1
+165,"<*>: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>@<*>",1
+166,"jA9JBWxH019649: to=<*>, ctladdr=<*> (<*>/<*>), delay=<*>, xdelay=<*>, mailer=<*>, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=<*>",1
+167,"jA9JBWEr014256: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>",1
+168,"jA9JBWEr014256: to=<*>, ctladdr=<*> (<*>/<*>), delay=<*>, xdelay=<*>, mailer=<*>, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=<*>",1
+169,"jA9JBXgf022479: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>",1
+170,"jA9JBXgf022479: to=<*>, ctladdr=<*> (<*>/<*>), delay=<*>, xdelay=<*>, mailer=<*>, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=<*>",1
+171,"jA9JBXVI027337: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>",1
+172,"jA9JBXVI027337: to=<*>, ctladdr=<*> (<*>/<*>), delay=<*>, xdelay=<*>, mailer=<*>, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=<*>",1
+173,Local disconnected: Connection closed.,1
+174,"Device: <*>, Temperature changed <*> Celsius to <*> Celsius since last report",1

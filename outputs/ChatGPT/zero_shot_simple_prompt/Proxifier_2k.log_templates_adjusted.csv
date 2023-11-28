@@ -1,0 +1,68 @@
+,EventTemplate,Occurrences
+0,<*>: <*> open through proxy <*> <*>,460
+1,<*> open through proxy <*> <*>,394
+2,"<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",187
+3,"<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",124
+4,<*> <*> : <*>,72
+5,"<*>: <*> <*>, <*> bytes sent, <*> bytes received, lifetime <*>",63
+6,"<*> <*>, <*> bytes sent, <*> bytes received, lifetime <*>",59
+7,"<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",54
+8,"<*> <*>, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>",53
+9,"<*>: <*>, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",50
+10,"<*>: <*>, <*> bytes sent, <*> bytes received, lifetime <*>",45
+11,<*>: <*> open through proxy <*>: <*> <*>,45
+12,"<*> <*>, <*> bytes sent, <*> bytes (<*>) received, lifetime <*>",37
+13,"<*> <*>, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",36
+14,"<*>: <*>, <*> bytes sent, <*> bytes received, lifetime <*> sec>",31
+15,"<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>",29
+16,<*> <*> through proxy <*> <*>,29
+17,"<*> <*>, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",26
+18,"<*>: <*>, <*> bytes (<*>), <*> bytes received, lifetime <*>",23
+19,"<*> close, <*> bytes sent, <*> bytes received, lifetime <*> sec>",16
+20,"<*> close, <*> bytes sent, <*> bytes received, lifetime <*> sec}",13
+21,"<*> close, <*> bytes sent, <*> bytes (<*>) received, lifetime <*>",12
+22,"<*>: <*>, <*> bytes sent, <*> bytes (<*>) received, lifetime <*>",11
+23,"<*> <*>, <*> bytes (<*>), <*> bytes received, lifetime <*>",10
+24,<server>:<port> <level> : <message>,9
+25,"<*>: <*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",8
+26,<*> <*> : <*> - <*>,8
+27,"<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*> sec>",7
+28,<source>:<port> open through proxy <proxy>:<proxy_port> <protocol>,7
+29,"<*>: <*>, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*> sec>",6
+30,"<*>: <*>, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",5
+31,"<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> MB) received, lifetime <*>",5
+32,<*>: <*> open through proxy <*>: <*>,5
+33,"<*>: <*>, <*> sent, <*> received, lifetime <*>",4
+34,<*>: <*> through proxy <*>: <*> <*>,4
+35,<*> <*> <*> : <*>,4
+36,"<*>: <*> <*>, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",3
+37,"<*> <*>, <*> bytes (<*> KB) sent, <*> bytes (<*> MB) received, lifetime <*>",3
+38,<*>: <*> through proxy <*>: <*>,3
+39,<*>-<*>-<*> <*> <*>.client-channel.google.com:<*> error : Could not connect to proxy proxy.cse.cuhk.edu.hk:<*> - connection attempt failed with error <*>,3
+40,"<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*> sec>",2
+41,"<*>: <*>, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>",2
+42,"<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*> sec>",2
+43,"<*> <*>, <*> bytes sent, <*> bytes received, lifetime <*> sec>",2
+44,"<*>: <*> <*>, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*> sec>",2
+45,"<*> close, <*> sent, <*> received, lifetime <*>",2
+46,<application>:<port> open through proxy <proxy>:<proxy_port> <protocol>,2
+47,<server>:<port> open through proxy <proxy_server>:<proxy_port> <protocol>,2
+48,<source>:<port> <action> through proxy <proxy>:<proxy_port> <protocol>,2
+49,"<*> close, <*> bytes sent, <*> bytes (<*>) received, lifetime <*> sec>",2
+50,"<*> <*>, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*> sec>",1
+51,"<*>: <*> close, <*> bytes sent, <*> bytes received, lifetime <*>",1
+52,"<*>: <*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> MB) received, lifetime <*>",1
+53,"<*>: <*>, <*> bytes (<*>), <*> received, lifetime <*>",1
+54,"<hostname>:<port> close, <bytes_sent> bytes sent, <bytes_received> bytes received, lifetime <duration>",1
+55,"capi.grammarly.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+56,<application>:<port> <action> through proxy <proxy>:<proxy_port> <protocol>,1
+57,"upload.<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+58,"notifications.google.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",1
+59,"<*>: <*> <*> bytes sent, <*> bytes (<*>) received, lifetime <*>",1
+60,"<server>:<port> close, <bytes_sent> bytes sent, <bytes_received> bytes received, lifetime <lifetime>",1
+61,"notifications.google.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+62,"<*> <*>, <*> bytes (<*>), <*> bytes (<*>) received, lifetime <*>",1
+63,<timestamp> <severity> : <message>,1
+64,"<server>:<port> <action>, <bytes sent> bytes sent, <bytes received> bytes received, lifetime <time>",1
+65,<*> open through proxy <*> HTTPS,1
+66,<*>: <*> <*> through proxy <*> <*>,1

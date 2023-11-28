@@ -1,0 +1,56 @@
+,EventTemplate,Occurrences
+0,PacketResponder {} for block {} terminating,264
+1,BLOCK* NameSystem.addStoredBlock: blockMap updated: {datanode}:50010 is added to {block} size {size},307
+2,PacketResponder {number} for block {block_id} terminating,47
+3,Received block {block_id} of size {block_size} from {source_ip},290
+4,Receiving block {block_id} src: {source_address} dest: {destination_address},119
+5,Receiving block blk_{block_id} src: {source_ip}:{source_port} dest: {destination_ip}:{destination_port},58
+6,BLOCK* NameSystem.allocateBlock: {file_path}. {block_id},115
+7,Verification succeeded for {block_id},12
+8,Receiving block blk_{block_id} src: {source_address} dest: {destination_address},88
+9,Receiving block blk_{block_id} src: {source} dest: {destination},19
+10,Deleting block {block_id} file {file_path},196
+11,IP_ADDRESS:PORT Served block BLOCK_ID to CLIENT_IP,59
+12,IP:PORT Served block {block_id} to {destination},9
+13,IP:PORT:Got exception while serving {block_id} to {destination_IP},36
+14,IP:PORT:Got exception while serving blk_{BLOCK_ID} to /{CLIENT_IP}:,1
+15,{ip_address}:{port}:Got exception while serving {block_id} to /{destination_ip}:,4
+16,{}:{}:Got exception while serving {} to {},9
+17,{ip}:{port}:Got exception while serving {block_id} to /{client_ip}:,1
+18,{ip_address}:{port}:Got exception while serving {block_id} to {client_ip}:,1
+19,{ip_address}:{port}:Got exception while serving {block_id} to /{client_ip}:,9
+20,{source_ip}:{port}:Got exception while serving {block_id} to /{destination_ip}:,6
+21,BLOCK* NameSystem.addStoredBlock: blockMap updated: {ip_address} is added to {block_name} size {block_size},2
+22,Received block blk_{block_id} of size {block_size} from {source_ip},2
+23,Verification succeeded for {block},4
+24,BLOCK* NameSystem.addStoredBlock: blockMap updated: {ip_address} is added to {block_id} size {block_size},2
+25,BLOCK* NameSystem.delete: {block_id} is added to invalidSet of {datanode},219
+26,IP_ADDRESS:PORT Served block BLOCK_NAME to CLIENT_IP,3
+27,IP_ADDRESS:PORT Served block BLOCK_ID to FILE_PATH,3
+28,{}:{}:Got exception while serving {} to {}:,7
+29,IP:PORT Served block BLOCK_ID to CLIENT_IP,2
+30,IP:PORT:Got exception while serving {block} to {destination IP},3
+31,Verification succeeded for {block_number},4
+32,BLOCK* NameSystem.delete: blk_{block_id} is added to invalidSet of {datanode_ip}:{port},1
+33,BLOCK* NameSystem.delete: blk_{block_id} is added to invalidSet of {ip_address}:{port},4
+34,Deleting block blk_{dynamic_variable} file {dynamic_variable},25
+35,Deleting block blk_{block_id} file {file_path},42
+36,Receiving block {block_id} src: {source} dest: {destination},3
+37,IP:PORT Served block BLOCK_ID to DESTINATION_IP,1
+38,{source_ip}:{port}:Got exception while serving {block_id} to {destination_ip}:,1
+39,{}:{}:Got exception while serving {} to {}/{}:,1
+40,{ip_address}:{port}:Got exception while serving {block_id} to {destination_ip}:,1
+41,IP_ADDRESS:PORT Starting thread to transfer block BLOCK_ID to IP_ADDRESS:PORT,1
+42,BLOCK* ask {ip_address}:{port} to delete {block_id},1
+43,BLOCK* ask {ip_address}:{port} to delete  {block_id},1
+44,BLOCK* NameSystem.addStoredBlock: blockMap updated: {ip_address}:{port} is added to {block_id} size {block_size},1
+45,{} Served block {} to {},1
+46,IP_ADDRESS:PORT Served block BLOCK_ID to {CLIENT_IP},2
+47,Receiving block {block} src: {source} dest: {destination},4
+48,Receiving block blk_{block_number} src: {source_address} dest: {destination_address},1
+49,Received block blk_{block_id} src: {source} dest: {destination} of size {size},1
+50,BLOCK* NameSystem.addStoredBlock: blockMap updated: {ip_address}:{port} is added to {block_name} size {block_size},1
+51,BLOCK* ask {ip_address}:{port} to delete {block_ids},3
+52,BLOCK* ask {sourceIP}:{sourcePort} to replicate {blockID} to datanode(s) {destinationIP}:{destinationPort},1
+53,Received block {block_id} src: {source_address} dest: {destination_address} of size {block_size},1
+54,BLOCK* NameSystem.addStoredBlock: blockMap updated: {IP_address}:50010 is added to {block_id} size {block_size},1

@@ -1,0 +1,31 @@
+,EventTemplate,Occurrences
+0,PacketResponder {responder_id} for block {block} terminating,201
+1,PacketResponder 0 for block {block} terminating,96
+2,BLOCK* NameSystem.addStoredBlock: blockMap updated: {ip_address} is added to {path} size {size},67
+3,{process} {id} for block {block} terminating,8
+4,BLOCK* NameSystem.addStoredBlock: blockMap updated: {ip_address} is added to {block} size {size},246
+5,Received block {block} of size {size} from {source},292
+6,Receiving block {block} src: {source} dest: {destination},292
+7,BLOCK* NameSystem.allocateBlock: {path} {block},115
+8,Verification succeeded for {block},20
+9,Deleting block {block} file {path},263
+10,{ip_address}:50010 Served block {block} to /{destination},58
+11,{ip_address}:50010 Served block {block} to {destination},10
+12,{ip_address}:Got exception while serving {block} to {destination}:,20
+13,{ip_address}:50010:Got exception while serving {path} to {destination}:,13
+14,{ip_address}:Got exception while serving {path} to {destination}:,28
+15,{ip_address}:{port} Served block {block} to {destination},12
+16,{ip_address}:50010:Got exception while serving {block} to {destination}:,14
+17,{ip_address}:50010:Got exception while serving {path} to /{destination}:,4
+18,PacketResponder 1 for block {block} terminating,1
+19,BLOCK* NameSystem.delete: {block} is added to invalidSet of {ip_address}:{port},217
+20,BLOCK* NameSystem.delete: {block} is added to invalidSet of {ip_address}:50010,6
+21,{process} {thread} for block {block} terminating,5
+22,BLOCK* NameSystem.addStoredBlock: blockMap updated: {destination} is added to {block} size {size},1
+23,{ip_address}:50010:Got exception while serving {block} to /{destination}:,1
+24,BLOCK* NameSystem.delete: {block} is added to invalidSet of {ip_address},1
+25,{source_ip}:50010 Starting thread to transfer block {block} to {destination_ip}:50010,1
+26,BLOCK* ask {ip_address} to delete {block},2
+27,Received block {block} src: {source} dest: {destination} of size {size},2
+28,BLOCK* ask {ip_address} to delete {blocks},3
+29,BLOCK* ask {source}:50010 to replicate {block} to datanode(s) {destination}:50010,1

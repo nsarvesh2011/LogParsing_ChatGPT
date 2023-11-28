@@ -1,0 +1,98 @@
+,EventTemplate,Occurrences
+0,Loaded Servicing Stack v{version} with Core: {core_path},2
+1,00000001@{date}:WcpInitialize (wcp.dll version {version}) called (stack @{stack}),2
+2,00000002@{date}:WcpInitialize (wcp.dll version {version}) called (stack @{stack}),1
+3,00000003@{date}:20:30:31.458 WcpInitialize (wcp.dll version 0.0.0.6) called (stack @{stack1} @{stack2} @{stack3} @{stack4} @{stack5} @{stack6}),1
+4,Ending TrustedInstaller initialization.,2
+5,Starting the TrustedInstaller main loop.,2
+6,TrustedInstaller service starts successfully.,2
+7,SQM: Initializing online with Windows opt-in: {Boolean},2
+8,SQM: Cleaning up report files older than {number_of_days} days.,2
+9,SQM: Requesting upload of all unsent reports.,2
+10,"SQM: Failed to start upload with file pattern: {file_pattern}, flags: {flags} [HRESULT = {HRESULT}]",2
+11,SQM: Failed to start standard sample upload. [HRESULT = {HRESULT}],2
+12,"SQM: Queued {count} file(s) for upload with pattern: {path}, flags: {flags}",2
+13,SQM: Warning: Failed to upload all unsent reports. [HRESULT = {HRESULT} - E_FAIL],2
+14,"No startup processing required, TrustedInstaller service was not set as autostart, or else a reboot is still pending.",2
+15,NonStart: Checking to ensure {placeholder} processing was not required.,2
+16,"00000004 IAdvancedInstallerAwareStore_ResolvePendingTransactions (call {call_number}) (flags = {flags}, progress = {progress}, phase = {phase}, pdwDisposition = {pdw_disposition}",2
+17,"Creating NT transaction (seq {seq}), objectname [{objectname_length}]""{objectname}""",3
+18,"Created NT transaction (seq {seq}) result {result}, handle @{handle}",3
+19,00000007@{date}:CSI perf trace:,1
+20,"NonStart: {status}, startup processing {requirement} as expected.",2
+21,Startup processing thread terminated normally,2
+22,00000008 CSI Store {StoreID} ({StoreAddress}) initialized,1
+23,Session: {session_id} initialized by client {client_name}.,609
+24,Warning: Unrecognized {attribute} attribute.,280
+25,Expecting attribute name [HRESULT = {HRESULT} - CBS_E_MANIFEST_INVALID_ITEM],224
+26,Failed to get next element [HRESULT = {HRESULT} - {ERROR_DESCRIPTION}],202
+27,Failed to get next element [HRESULT = {HRESULT} - CBS_E_MANIFEST_INVALID_ITEM],22
+28,Failed to internally open package. [HRESULT = {HRESULT} - CBS_E_INVALID_PACKAGE],18
+29,"Read out cached package applicability for package: Package_for_KB{KB_number}~{architecture}~~{version}, ApplicableState: {applicable_state}, CurrentState:{current_state}",34
+30,"Read out cached package applicability for package: Package_for_KB{placeholder1}~{placeholder2}~{placeholder3}~~{placeholder4}, ApplicableState: {placeholder5}, CurrentState:{placeholder6}",302
+31,"Read out cached package applicability for package: Package_for_{KBID}~{Architecture}~~{Version}, ApplicableState: {ApplicableState}, CurrentState:{CurrentState}",24
+32,"Read out cached package applicability for package: {PackageID}, ApplicableState: {ApplicableState}, CurrentState:{CurrentState}",105
+33,"Read out cached package applicability for package: Package_for_KB{placeholder1}~{placeholder2}~{placeholder3}~~{placeholder4}, ApplicableState: {placeholder5}, CurrentState:{placeholder5}",11
+34,"Read out cached package applicability for package: Package_for_KB3055642~31bf3856ad364e35~amd64~~{version}, ApplicableState: {applicableState}, CurrentState:{currentState}",2
+35,"Read out cached package applicability for package: Package_for_KB3078601~31bf3856ad364e35~amd64~~{version}, ApplicableState: {applicableState}, CurrentState:{currentState}",2
+36,"Read out cached package applicability for package: Package_for_{KBNumber}~{Architecture}~~{Version}, ApplicableState: {ApplicableState}, CurrentState:{CurrentState}",5
+37,"Read out cached package applicability for package: Package_for_KB{placeholder1}~{placeholder2}~amd64~~{placeholder3}, ApplicableState: {placeholder4}, CurrentState:{placeholder4}",3
+38,"Read out cached package applicability for package: Package_for_KB{KBNumber}~{Architecture}~~{Version}, ApplicableState: {ApplicableState}, CurrentState:{CurrentState}",3
+39,"Read out cached package applicability for package: Package_for_KB3059317~31bf3856ad364e35~amd64~~{version}, ApplicableState: {applicable_state}, CurrentState:{current_state}",1
+40,"Read out cached package applicability for package: Package_for_KB{placeholder1}~{placeholder2}~{placeholder3}~{placeholder4}, ApplicableState: {placeholder5}, CurrentState:{placeholder6}",21
+41,"Read out cached package applicability for package: Microsoft-Windows-PlatformUpdate-Win7-SRV08R2-Package-TopLevel~31bf3856ad364e35~amd64~~{version}, ApplicableState: {applicableState}, CurrentState:{currentState}",2
+42,"Read out cached package applicability for package: {package_name}, ApplicableState: {applicable_state}, CurrentState:{current_state}",12
+43,"Read out cached package applicability for package: Package_for_{KB}~{arch}~~{ver}, ApplicableState: {appState}, CurrentState:{curState}",4
+44,"Read out cached package applicability for package: Package_for_KB3080079~31bf3856ad364e35~amd64~~{version}, ApplicableState: {applicableState}, CurrentState:{currentState}",2
+45,"Read out cached package applicability for package: Package_for_KB947821~{var1}~{var2}~~{var3}, ApplicableState: {var4}, CurrentState:{var5}",2
+46,"Read out cached package applicability for package: Package_for_KB{placeholder1}~31bf3856ad364e35~amd64~~{placeholder2}, ApplicableState: {placeholder3}, CurrentState:{placeholder3}",4
+47,"Read out cached package applicability for package: Package_for_{placeholder1}~{placeholder2}~{placeholder3}~~{placeholder4}, ApplicableState: {placeholder5}, CurrentState:{placeholder5}",6
+48,"Read out cached package applicability for package: Package_for_KB{KBID}~{Architecture}~~{Version}, ApplicableState: {ApplicableState}, CurrentState:{CurrentState}",1
+49,"Read out cached package applicability for package: Package_for_{placeholder1}~{placeholder2}~{placeholder3}~{placeholder4}, ApplicableState: {placeholder5}, CurrentState:{placeholder6}",2
+50,"Read out cached package applicability for package: Package_for_KB{placeholder1}~31bf3856ad364e35~amd64~~{placeholder2}, ApplicableState: {placeholder3}, CurrentState:{placeholder4}",1
+51,"Read out cached package applicability for package: Package_for_KB3054476~31bf3856ad364e35~amd64~~{version}, ApplicableState: {applicable_state}, CurrentState:{current_state}",2
+52,"Read out cached package applicability for package: Package_for_{PackageID}~{Architecture}~~{Version}, ApplicableState: {ApplicableState}, CurrentState:{CurrentState}",3
+53,"Read out cached package applicability for package: Package_for_KB3156019~31bf3856ad364e35~amd64~~{version}, ApplicableState: {applicable_state}, CurrentState:{current_state}",1
+54,Failed to create backup log cab. [HRESULT = {HRESULT} - {ERROR}],2
+55,Reboot mark refs incremented to: {integer},1
+56,Scavenge: {status},1
+57,"00000009@{date}:CSI Transaction @0x{memory_address} initialized for deployment engine {engine_id} with flags {flags} and client id [{client_id}]""{client_name}""",1
+58,Scavenge: Begin CSI Store,1
+59,Performing {num_operations} operations; {num_non_lock_unlock} are not lock/unlock and follow:,1
+60,"Store coherency cookie matches last scavenge cookie, skipping scavenge.",1
+61,ICSITransaction::Commit calling IStorePendingTransaction::Apply coldpatching={BOOL} applyflags={INT},1
+62,{sequence_number}@{date_time} CSI perf trace:,2
+63,"Scavenge: Completed, disposition: {disposition}",1
+64,00000010@{date}:CSI Transaction @{address} destroyed,1
+65,Reboot mark refs: {integer},1
+66,Idle processing thread terminated normally,1
+67,Ending the TrustedInstaller main loop.,1
+68,Starting TrustedInstaller finalization.,1
+69,Ending TrustedInstaller finalization.,1
+70,Starting TrustedInstaller initialization.,1
+71,00000002@{date}:16:00:46.200 WcpInitialize (wcp.dll version 0.0.0.6) called (stack @{stack1} @{stack2} @{stack3} @{stack4} @{stack5} @{stack6}),1
+72,00000003@{date}:16:00:46.213 WcpInitialize (wcp.dll version 0.0.0.6) called (stack @{stack1} @{stack2} @{stack3} @{stack4} @{stack5} @{stack6}),1
+73,"Loading offline registry hive: SOFTWARE, into registry key '{placeholder}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/SOFTWARE' from path '{placeholder}GLOBALROOT\Device\HarddiskVolumeShadowCopy2\Windows\System32\config\SOFTWARE'.",1
+74,"Loading offline registry hive: SYSTEM, into registry key '{placeholder}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/SYSTEM' from path '{placeholder}GLOBALROOT\Device\HarddiskVolumeShadowCopy2\Windows\System32\config\SYSTEM'.",1
+75,"Loading offline registry hive: SECURITY, into registry key '{placeholder}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/SECURITY' from path '{placeholder}GLOBALROOT\Device\HarddiskVolumeShadowCopy2\Windows\System32\config\SECURITY'.",1
+76,"Loading offline registry hive: SAM, into registry key '{placeholder}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/SAM' from path '{placeholder}GLOBALROOT\Device\HarddiskVolumeShadowCopy2\Windows\System32\config\SAM'.",1
+77,"Loading offline registry hive: COMPONENTS, into registry key '{placeholder}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/COMPONENTS' from path '{placeholder}GLOBALROOT\Device\HarddiskVolumeShadowCopy2\Windows\System32\config\COMPONENTS'.",1
+78,"Loading offline registry hive: {hive_name}, into registry key '{registry_key}' from path '{path}'.",1
+79,"Loading offline registry hive: ntuser.dat, into registry key '{registry_key}' from path '{file_path}'.",1
+80,"Loading offline registry hive: schema.dat, into registry key '{placeholder}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/system32/smi/store/Machine/schema.dat' from path '{placeholder}GLOBALROOT\Device\HarddiskVolumeShadowCopy2\Windows\system32\smi\store\Machine\schema.dat'.",1
+81,Offline image is: {status},1
+82,"Disabling manifest caching, because the image is not writeable.",1
+83,00000008@{date}:PopulateComponentFamiliesKey - Begin,1
+84,00000009@{date}:16:01:03.072 PopulateComponentFamiliesKey - End,1
+85,0000000a CSI Store {store_id} ({store_address}) initialized,1
+86,Unloading offline registry hive: {GUID}GLOBALROOT/Device/HarddiskVolumeShadowCopy{#}/Windows/System32/config/{FILENAME},1
+87,Unloading offline registry hive: {hive}GLOBALROOT/Device/HarddiskVolumeShadowCopy{copy_number}/Windows/System32/config/{filename},2
+88,Unloading offline registry hive: {GUID}GLOBALROOT/Device/HarddiskVolumeShadowCopy{#}/Windows/System32/config/{filename},1
+89,Unloading offline registry hive: {GUID}GLOBALROOT/Device/HarddiskVolumeShadowCopy{#}/Windows/System32/config/COMPONENTS,1
+90,Unloading offline registry hive: {hive}GLOBALROOT/Device/HarddiskVolumeShadowCopy{copy_number}/Windows/System32/config/{key},1
+91,Unloading offline registry hive: {hive}GLOBALROOT/Device/HarddiskVolumeShadowCopy{copy_number}/Users/{username}/ntuser.dat,1
+92,Unloading offline registry hive: {hive_id}GLOBALROOT/Device/HarddiskVolumeShadowCopy{copy_number}/Windows/system32/smi/store/Machine/schema.dat,1
+93,0000000b CSI Store {store_id} ({store_address}) initialized,1
+94,"Read out cached package applicability for package: Package_for_KB3059317~31bf3856ad364e35~amd64~~{version}, ApplicableState: {applicableState}, CurrentState:{currentState}",1
+95,"Read out cached package applicability for package: Package_for_{placeholder1}~{placeholder2}~{placeholder3}~~{placeholder4}, ApplicableState: {placeholder5}, CurrentState:{placeholder6}",1
+96,"Read out cached package applicability for package: Package_for_KB3080149~31bf3856ad364e35~amd64~~{version}, ApplicableState: {applicableState}, CurrentState:{currentState}",1

@@ -1,0 +1,169 @@
+,EventTemplate,Occurrences
+0,data_thread() got not answer from any [<*>] datasource,819
+1,"synchronized to <*>, stratum <*>",567
+2,[<*>]: <*>,186
+3,Warning: we failed to resolve data source name <*>,27
+4,session closed for user <*>,24
+5,session opened for user <*> by (uid=<*>),19
+6,Reading included configuration file: <*> [file=<*>] [line=<*>],17
+7,DHCPDISCOVER from <*> via <*>: network <*>: no free leases,15
+8,removing <*>,15
+9,(<*>) CMD (<*>),14
+10,RRD_update (<*>): illegal attempt to update using time <*> when last update time is <*> (minimum one second step),11
+11,unable to qualify my own domain name (<*>) -- using short name,10
+12,PCI Interrupt Routing Table [<*>],10
+13,"PCI interrupt <*>[<*>] -> GSI <*> (<*>, <*>) -> IRQ <*>",10
+14,DHCPREQUEST for <*> (<*>) from <*> via <*>: unknown lease <*>.,9
+15,"<*>: to=<*>, ctladdr=<*> (<*>), delay=<*>, xdelay=<*>, mailer=<*>, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=<*>",6
+16,Wait for <*> failed before <*> !,6
+17,"<*>: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>@<*>",5
+18,DHCPDISCOVER from <*> via <*>,5
+19,DHCPOFFER on <*> to <*> via <*>,5
+20,My unqualified host name (<*>) unknown; sleeping for retry,5
+21,L2 cache: <*>,5
+22,Physical Processor ID: <*>,5
+23,"Trace cache: <*> uops, L1 D cache: <*>",5
+24,Registered protocol family <*>,5
+25,<*>,4
+26,LAPIC (acpi_id[<*>] lapic_id[<*>] enabled),4
+27,LAPIC_NMI (acpi_id[<*>] high edge lint[<*>]),4
+28,Processor [<*>] (supports <*>),4
+29,(<*>) <*>-<*> <*> <*> <*>,4
+30,<*> startup succeeded,4
+31,Local disconnected: <*>.,3
+32,connection lost: '<*>',3
+33,"<*>: to=<*>, ctladdr=<*> (<*>/<*>), delay=<*>, xdelay=<*>, mailer=<*>, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=<*>",3
+34,DHCPACK on <*> to <*> via <*>,3
+35,DHCPREQUEST for <*> (<*>) from <*> via <*>,3
+36,IOAPIC (id[<*>] address[<*>] gsi_base[<*>]),3
+37,<*> used by <*>.,3
+38,mounted filesystem with <*> data mode.,3
+39,"apic_id <*>, version <*>, address <*>, GSI <*>",3
+40,registered new driver <*>,3
+41,"<*> from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>",3
+42,"<*>: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>",2
+43,(<*>) CMD (<*> <*>),2
+44,allocating divert_blk for <*>,2
+45,not allocating divert_blk for non-<*> device <*>,2
+46,<*>: <*>: <*>,2
+47,... autorun <*>.,2
+48,Autodetecting RAID arrays.,2
+49,autorun ...,2
+50,"connection from ""<*>""",2
+51,"User <*>, coming from <*>, authenticated.",2
+52,Now running on <*>'s privileges.,2
+53,Warning: we failed to resolve data source name <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,2
+54,START: tftp pid=<*> from=<*>,1
+55,kernel time sync disabled <*>,1
+56,time reset <*> s,1
+57,Received SNMP packet(s) from <*>,1
+58,"synchronized to LOCAL(<*>), stratum <*>",1
+59,kernel time sync enabled <*>,1
+60,(<*>) CMD (<*> a),1
+61,CentOS-<*> (Kernel Module <*> key),1
+62,(supports <*> <*> <*>),1
+63,DSDT (v001 <*> <*> <*> <*> <*>) @ <*>,1
+64,FADT (<*> <*> <*> <*> <*> <*>) @ <*>,1
+65,HPET (<*> <*> <*> <*> <*> <*>) @ <*>,1
+66,HPET id: <*> base: <*>,1
+67,INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> dfl dfl),1
+68,INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> <*>),1
+69,Interpreter enabled,1
+70,Local APIC address <*>,1
+71,MADT (<*> <*> <*> <*> <*> <*>) @ <*>,1
+72,MCFG (<*> <*> <*> <*> <*> <*>) @ <*>,1
+73,PCI Interrupt Link [<*>] (IRQs <*>) <*>,1
+74,PCI Interrupt Link [<*>] (IRQs <*>),1
+75,PCI Interrupt Link [LNKC] (IRQs <*>) <*>,1
+76,"PCI Interrupt Link [LNKD] (IRQs <*>) <*>, <*>.",1
+77,"PCI Interrupt Link [<*>] (IRQs <*>) <*>, <*>.",1
+78,"PCI Interrupt Link [<*>] (IRQs <*>) <*>, disabled.",1
+79,"PCI Interrupt Link [LNKG] (IRQs <*>) <*>, <*>.",1
+80,"PCI Interrupt Link [LNKH] (IRQs <*>) <*>, <*>.",1
+81,PCI <*> Bridge [<*>] (<*>),1
+82,"PCI interrupt <*>[A] -> GSI <*> (<*>, <*>) -> IRQ <*>",1
+83,Power Button (<*>) [<*>],1
+84,RSDP (<*> <*> ) @ <*>,1
+85,RSDT (<*> <*> <*> <*> <*> <*>) @ <*>,1
+86,SPCR (<*> <*> <*> <*> <*> <*>) @ <*>,1
+87,Subsystem revision <*>,1
+88,Using <*> for interrupt routing,1
+89,Intel(R) Xeon(TM) CPU <*> stepping <*>,1
+90,colour <*> <*>,1
+91,"sys_ia32.c,v <*> <*> <*> ak Exp $",1
+92,"routing cache hash table of <*> buckets, <*>",1
+93,PCI Hot Plug PCI Core version: <*>,1
+94,<*>=<*> initrd=<*> console=<*> console=<*> fastboot BOOT_IMAGE=<*>,1
+95,Using software <*> for IO (<*>),1
+96,Probing PCI hardware (bus <*>),1
+97,Transparent bridge - <*>,1
+98,Using <*> for IRQ routing,1
+99,Using MMCONFIG at <*>,1
+100,Using configuration type <*>,1
+101,Compressed image found at block <*>,1
+102,<*> at runtime.,1
+103,<*>.,1
+104,Registering <*> hooks,1
+105,Starting in <*> mode,1
+106,Unregistering netfilter hooks,1
+107,Hash tables configured (established <*> bind <*>),1
+108,Direct-Access <*> revision: <*>,1
+109,Processor ANSI SCSI revision: <*>,1
+110,Disk quotas <*>,1
+111,Mounted <*> (<*> filesystem).,1
+112,MegaRAID Model: LD <*> RAID1 <*> Rev: <*>,1
+113,PE/PV Model: <*> SCSI BP Rev: <*>,1
+114,initialized,1
+115,initializing netlink socket (<*>),1
+116,passed.,1
+117,<*>-<*> (<*>) initialised: <*>@<*>,1
+118,<*>:USB HID core driver,1
+119,<*>: <*>: NIC Link is <*> <*> <*>,1
+120,no <*> controllers found,1
+121,<*> not detected,1
+122,Assuming <*> system bus speed for PIO modes; override with idebus=xx,1
+123,Unknown cmd fd(<*>) cmd(<*>)<*> arg(<*>) on <*>,1
+124,Installing <*>,1
+125,"md driver <*> MAX_MD_DEVS=<*>, MD_SB_DISKS=<*>",1
+126,<*>-rh1 (Release Date: <*> <*> <*> <*> <*> <*>),1
+127,<*> (Release Date: <*> <*> <*> <*> <*> <*>),1
+128,fw version:[<*>] bios version:[<*>],1
+129,probe new device <*>: bus <*>:slot <*>:func <*>,1
+130,PS/<*> <*> device common for all <*>,1
+131,<*> (<*>),1
+132,rpc.statd <*> succeeded,1
+133,Starting <*>: <*>,1
+134,Version <*> Starting,1
+135,<*> driver,1
+136,scanning scsi channel <*> [Phy <*>] for non-raid devices,1
+137,scanning scsi channel <*> [<*>] for logical drives,1
+138,asking for <*> failed,1
+139,assuming drive cache: <*>,1
+140,<*> <*> <*> <*>,1
+141,Registering <*> module capability,1
+142,"i8042 AUX port at <*>,<*> irq <*>",1
+143,"i8042 KBD port at <*>,<*> irq <*>",1
+144,syslog-ng version <*> starting,1
+145,Detected <*> MHz processor.,1
+146,Using <*> MHz HPET timer.,1
+147,Using <*> based timekeeping.,1
+148,Creating Topspin <*> entries:,1
+149,registered new <*> <*>,1
+150,probe of <*> failed with error <*>,1
+151,Mounting NFS filesystems: <*>,1
+152,Mounting <*> filesystems: <*>,1
+153,Warning: we failed to resolve data source name <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,1
+154,Warning: we failed to resolve data source name <*> <*> <*>,1
+155,Template: `Warning: we failed to resolve data source name <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> {,1
+156,Warning: we failed to resolve data source name <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,1
+157,Warning: we failed to resolve data source name <*> <*>,1
+158,Warning: we failed to resolve trusted host name <*> <*>,1
+159,Server listening on :: port <*>.,1
+160,error: Bind to port <*> on <*> failed: <*>.,1
+161,Cannot open file <*> for writing (<*>),1
+162,Changing permissions on special file <*>,1
+163,Started working: <*> available service,1
+164,removing printer,1
+165,xinetd Version <*> started with <*> options compiled in.,1
+166,"jA9JBXVI027337: to=<*>, ctladdr=<*> (<*>/<*>), delay=<*>, xdelay=<*>, mailer=<*>, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=<*>",1
+167,"Device: <*>, Temperature changed <*> Celsius to <*> Celsius since last report",1
